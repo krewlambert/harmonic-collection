@@ -10,3 +10,5 @@ p {
 p2 {
   color: rgb(58, 38, 123);
 }
+a:hover {
+  color: lime; }
