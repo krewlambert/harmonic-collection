@@ -1,6 +1,12 @@
 body {
   font-family: monospace;
 }
+div {
+ display: grid;
+  place-items: center;
+  height: 400;
+  border: 1 solid rgb(0, 0, 0);
+}
 h1 {
   color: blue;
 }
