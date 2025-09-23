@@ -7,6 +7,14 @@ body {
   height: 200;
   border: 1 solid black;
 }
+.my-image {
+  width: 250px;
+}
+
+.my-image:hover {
+  transition: width 1s ease;
+  width: 600px;
+}
 img {
   width: 100;
 }
