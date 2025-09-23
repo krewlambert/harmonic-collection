@@ -1,13 +1,14 @@
 body {
-  font-family: sans-serif;
+  font-family: monospace;
 }
 h1 {
-  color: rgb(255, 0, 0);
+  color: blue;
 }
 p {
-  color: rgb(58, 38, 123);
+  color: blue;
 }
 p2 {
-  color: rgb(58, 38, 123);
+  color: blue;
+}
 a:hover {
-  color: lime; }}
+  color: peru; }}
