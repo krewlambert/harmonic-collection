@@ -1,10 +1,15 @@
 body {
   background-color: black;
-   opacity: 0.8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   opacity: 0.8; }
+  div {
+ display: grid;
+  place-items: center;
   height: 400;
+  border: 1 solid black;
+}
+img {
+  width: 50%;
+}
 }
 body {
   font-family: monospace;
