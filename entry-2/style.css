@@ -4,12 +4,11 @@ body {
   div {
  display: grid;
   place-items: center;
-  height: 400;
+  height: 200;
   border: 1 solid black;
 }
 img {
-  width: 50%;
-}
+  width: 100;
 }
 body {
   font-family: monospace;
