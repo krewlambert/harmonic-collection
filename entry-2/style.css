@@ -8,7 +8,7 @@ body {
   border: 1 solid black;
 }
 
-.my-image:hover {
+my-image:hover{
   transition: width 1s ease;
   width: 600px;
 }
