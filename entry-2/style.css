@@ -11,6 +11,17 @@ body {
 my-image:hover{
   transition: width 1s ease;
   width: 600px;
+} 
+
+.parent {
+  position: relative;
+}
+  .my-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: auto;
 }
 img {
   width: 100;
