@@ -1,4 +1,4 @@
-div {
+body {
   background-color: black;
    opacity: 0.3;
   display: flex;
@@ -13,10 +13,10 @@ h1 {
   color: rgb(255, 0, 0);
 }
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 123, 185);
 }
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 123, 185);
 }
 a:hover {
   color: peru }
