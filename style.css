@@ -1,14 +1,28 @@
 body {
   font-family: monospace;
+  margin: 20px;
+  padding: 20px;
+  opacity: 1;
+  font-size: x-large; 
+  text-align: center;
 }
 div {
- display: grid;
+  display: grid;
   place-items: center;
-  height: 400;
-  border: 1 solid rgb(0, 0, 0);
+  height: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+img {
+  width: 400px;
+  height: autoscale;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  place-items: center; 
 }
 h1 {
   color: blue;
 }
 a:hover {
-  color: peru; }
+  color: peru;
+}
