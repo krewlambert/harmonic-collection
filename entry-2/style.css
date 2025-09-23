@@ -1,6 +1,9 @@
+div {
+  background-color: green;
+}
+
 body {
   font-family: monospace;
-  background-color: lightcyan;
 }
 h1 {
   color: rgb(255, 0, 0);
