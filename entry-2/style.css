@@ -1,8 +1,11 @@
 div {
   background-color: black;
    opacity: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400;
 }
-
 body {
   font-family: monospace;
 }
