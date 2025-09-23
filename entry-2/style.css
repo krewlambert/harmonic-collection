@@ -1,5 +1,5 @@
 div {
-  background-color: lightseagreen opacity 0.3;
+  background-color: black opacity 0.3;
 }
 
 body {
@@ -9,10 +9,10 @@ h1 {
   color: rgb(255, 0, 0);
 }
 p {
-  color: rgb(58, 38, 123);
+  color: rgb(255, 255, 255);
 }
 p {
-  color: rgb(58, 38, 123);
+  color: rgb(255, 255, 255);
 }
 a:hover {
   color: peru }
