@@ -11,7 +11,7 @@ body {
 
 .hover-enlarge:hover{
   transition: width 1s ease;
-  width: 600px;
+  width: 500px;
 } 
 
 .parent {
