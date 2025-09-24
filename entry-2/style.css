@@ -1,12 +1,11 @@
+
 body {
   background-color: black;
    opacity: 0.8; }
-   
 div {
  display: grid;
   place-items: center;
-  height: 200px;
-  border: 1 solid black;
+  height: 0px;
 }
 
 .hover-enlarge:hover{
