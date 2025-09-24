@@ -2,10 +2,11 @@
 body {
   background-color: black;
    opacity: 0.8; }
-div {
- display: grid;
+   
+.photo-container {
+ display: flex;
   place-items: center;
-  height: 0px;
+  height: 200px;
 }
 
 .hover-enlarge:hover{
