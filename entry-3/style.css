@@ -1,0 +1,26 @@
+body {
+  font-family: monospace; font-size: xx-large;
+    background-color: grey;
+    opacity: 1;
+    container: flex;
+    place-items: relative;
+    height: 50px;
+    margin: 50px;
+    text-align: center;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: relative;
+}
+
+p { color : darkblue; }
+
+.hover-img {
+  opacity: 0.5;       
+  transition: opacity 0.3s ease; 
+}
+
+.hover-img:hover {
+  opacity: 1;       
+  transition: opacity 0.3s ease; 
+}
+

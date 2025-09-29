@@ -2,7 +2,7 @@ div {
   place-items: center;
   height: 200px;
 }
-.square {
+.blue {
   display: flex;
   justify-content: center;
   align-items: center;
