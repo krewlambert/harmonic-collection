@@ -1,26 +1,93 @@
+.header {
+  opacity: 1;
+  color: lightgrey;
+  font-size: x-large;
+  background-color: blue;
+  font-family: monospace; font-size: medium 
+} 
 body {
-  font-family: monospace; font-size: xx-large;
-    background-color: grey;
-    opacity: 1;
-    container: flex;
-    place-items: relative;
-    height: 50px;
-    margin: 50px;
-    text-align: center;
-    background-color: lightcyan;
-    display: flex;
-    justify-content: relative;
+  background-color: black;
+}
+.subheader {
+  opacity: 1;
+  color: lightgrey;
+  background-color: blue;
+  font-family: monospace; font-size: small;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+.text {
+  opacity: 1;
+  color: lightgrey;
+  font-family: monospace; font-size: small;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 25px;
 }
 
-p { color : darkblue; }
-
-.hover-img {
-  opacity: 0.5;       
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 1px;  
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    margin: 0px;
+    }
+    .hover-img {
+  opacity: 0.6;       
   transition: opacity 0.3s ease; 
-}
+    display: grid;
+    gap: 10px; 
+    }
 
 .hover-img:hover {
-  opacity: 1;       
+  opacity: 1.0;       
   transition: opacity 0.3s ease; 
 }
+.scatter {
+  position: relative;
+  width: 100vw;   
+  height: 150vh;  
+  background: black; 
+  overflow: hidden;
+}
+
+.scatter img {
+  position: absolute;
+  width: 250px; max-height: 60vw;
+  height: auto;
+}
+
+.scatter img:nth-child(1) { top: 0%; left: 05%; }
+.scatter img:nth-child(2) { top: 10%; left: 60%; }
+.scatter img:nth-child(3) { top: 15%; left: 40%; }
+.scatter img:nth-child(4) { top: 40%; left: 5%; }
+.scatter img:nth-child(5) { top: 40%; left: 25%; }
+.scatter img:nth-child(6) { top: 15%; left: 80%; }
+.scatter img:nth-child(7) { top: 50%; left: 70%; }
+.scatter img:nth-child(8) { top: 35%; left: 50%; }
+.scatter img:nth-child(9) { top: 0%; left: 30%; }
+.scatter img:nth-child(10) { top: 20%; left: 10%; }
+.scatter img:nth-child(11) { top: 50%; left: 40%; }
+.scatter img:nth-child(12) { top: 70%; left: 15%; }
+
+.text {
+  color: blue
+}
+
+.bookmark {
+  position: absolute;
+  top: 1200px;
+  left: 30px;
+}
+
 
