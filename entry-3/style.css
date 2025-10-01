@@ -3,7 +3,7 @@
   color: lightgrey;
   font-size: x-large;
   background-color: blue;
-  font-family: monospace; font-size: medium;
+  font-family: monospace; font-size: large;
   padding-left: 25px;
   padding-right: 25px;
 } 
@@ -14,7 +14,7 @@ body {
   opacity: 1;
   color: lightgrey;
   background-color: blue;
-  font-family: monospace; font-size: small;
+  font-family: monospace; font-size: medium;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
