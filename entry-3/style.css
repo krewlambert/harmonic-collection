@@ -1,6 +1,6 @@
 .header {
   opacity: 1;
-  color: lightgrey;
+  color: white;
   font-size: x-large;
   background-color: blue;
   font-family: monospace; font-size: large;
@@ -8,11 +8,11 @@
   padding-right: 25px;
 } 
 body {
-  background-color: black;
+  background-color: lightgreen;
 }
 .subheader {
   opacity: 1;
-  color: lightgrey;
+  color: white;
   background-color: blue;
   font-family: monospace; font-size: medium;
   padding-top: 0px;
@@ -60,7 +60,7 @@ body {
   position: relative;
   width: 100vw;   
   height: 150vh;  
-  background: black; 
+  background: lightgreen; 
   overflow: hidden;
 }
 
@@ -84,7 +84,7 @@ body {
 .scatter img:nth-child(12) { top: 70%; left: 15%; }
 
 .text {
-  color: lightgrey
+  color: blue
 }
 
 .bookmark {
