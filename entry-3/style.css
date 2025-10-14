@@ -8,7 +8,7 @@
   padding-right: 25px;
 } 
 body {
-  background-color: lightgreen;
+  background-color: rgb(108, 126, 108);
 }
 .subheader {
   opacity: 1;
@@ -60,7 +60,7 @@ body {
   position: relative;
   width: 100vw;   
   height: 150vh;  
-  background: lightgreen; 
+  background: rgb(108, 126, 108); 
   overflow: hidden;
 }
 
