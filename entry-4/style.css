@@ -69,8 +69,8 @@ body {background-color: rgb(25, 126, 107);
 .cliff-row {
   display: flex;
   justify-content: center;
-  gap: 10px;     /* space between images */
-  flex-wrap: wrap;  /* keeps responsive on smaller screens */
+  gap: 10px;    
+  flex-wrap: wrap;  
 }
 
 
