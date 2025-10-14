@@ -1,0 +1,75 @@
+  body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #111;
+  background-color: rgb(237, 235, 235);
+  margin: 60px auto;
+  max-width: 900px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-top: 1px solid black;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
+  font-style: italic;
+  font-size: 15px;
+  color: #333;
+}
+
+.meta {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: gray;
+  margin-top: 30px;
+}
+
+.posted {
+  display: block;
+  margin-top: 4px;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.column {
+  width: 48%;
+  font-size: 15px;
+}
+
+.column p {
+margin-top: 24px;
+  margin-bottom: 24px; 
+}
+
+img {
+    position: absolute;
+    top: 100%; left: 20%;
+    
+}
