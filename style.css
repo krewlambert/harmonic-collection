@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: sans-serif;
   margin: 20px;
   padding: 20px;
   opacity: 1;
@@ -9,7 +9,7 @@ body {
 div {
   display: grid;
   place-items: center;
-  height: 20px;
+  height: 40px;
   border: 1px solid rgb(0, 0, 0);
 }
 img {
