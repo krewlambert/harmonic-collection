@@ -1,7 +1,15 @@
 body {
-  font-family: monospace;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: large;
+  border-top: 2px solid rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(255, 0, 0);
+  padding: 10px 0;
+  margin-bottom: 40px;
+  background-color: rgb(212, 229, 244);
 }
-h1 {
+header{
+  font-size: large;
   color: rgb(255, 0, 0);
 }
 p {
@@ -12,3 +20,8 @@ p {
 }
 a:hover {
   color: peru; }
+
+img {display: grid;
+  margin-left: 10px;
+  margin-right: 10px;
+}

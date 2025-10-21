@@ -121,6 +121,8 @@ body {background-color: rgb(25, 126, 107);
   border-radius: 10px;
 }
 .belowtext {
-  text-align: left;
+  text-align: center;
+  max-width: 400x;
+  font-family: monospace;
  padding-top: 100px;
 }

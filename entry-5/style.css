@@ -1,7 +1,7 @@
   body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   color: #111;
-  background-color: rgb(237, 235, 235);
+  background-color: rgb(225, 67, 67);
   margin: 60px auto;
   max-width: 900px;
   line-height: 1.6;
@@ -9,8 +9,9 @@
 
 header {
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  color: white;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -18,10 +19,11 @@ header {
 header h1 {
   margin: 0;
   font-size: 32px;
-  letter-spacing: 2px;
+  letter-spacing: 7px;
 }
 
 .subheader {
+  color: white;
   display: flex;
   justify-content: space-between;
   font-size: 12px;
@@ -36,13 +38,13 @@ header h1 {
   margin-bottom: 50px;
   font-style: italic;
   font-size: 15px;
-  color: #333;
+  color: rgb(255, 255, 255);
 }
 
 .craigslist {
   font-size: 11px;
   text-transform: uppercase;
-  color: gray;
+  color: rgb(180, 167, 255);
   margin-top: 30px;
 }
 
@@ -53,6 +55,7 @@ header h1 {
 }
 
 main {
+  color: #1c1c1c;
   display: flex;
   gap: 60px;
   justify-content: space-between;
