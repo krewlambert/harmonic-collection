@@ -21,7 +21,10 @@ p {
 a:hover {
   color: peru; }
 
-img {display: grid;
-  margin-left: 10px;
-  margin-right: 10px;
+img {display:; 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
 }
