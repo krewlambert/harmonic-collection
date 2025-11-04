@@ -1,0 +1,18 @@
+.day {font-family: sans-serif;}
+.hour {font-family: sans-serif;}
+.minute {font-family: sans-serif;}
+.second {font-family: sans-serif;}
+
+.countdown-timer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+body {
+  background-color: #000000;
+}
