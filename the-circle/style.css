@@ -1,0 +1,20 @@
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      flex-direction: column;
+    }
+    .circle {
+      width: 50vh;
+      height: 50vh;
+      background-color: #6374df;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
