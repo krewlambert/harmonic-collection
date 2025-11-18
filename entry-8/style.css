@@ -8,8 +8,13 @@ img {z-index: -1;
     object-position: center;
 }
 
-
-
+h1 {
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
 
 .recipe-container {
   width: 300px;
@@ -23,7 +28,7 @@ img {z-index: -1;
 .recipe-title {
   color: #ffffff;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
 }
 
