@@ -1,0 +1,71 @@
+
+body {
+  background: url("LEBRON_BG.png") no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+  color: #000000;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+span {
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+}
+p {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+body.dark {
+  background: #000000;
+  color: #000000;
+}
+
+.video-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+video {
+  border-radius: 0x;
+  transition: 
+    filter 0.5s ease,
+    box-shadow 0.4s ease;
+  
+  filter: invert(1);
+}
+
+video:hover {
+  filter: invert(0);  
+  box-shadow: 0 0 40px 20px rgba(255, 255, 255, 0.396);
+}
+
+
+#theme-switch {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+#theme-switch img {
+  filter: invert(0); 
+  transition: filter 0.3s ease;
+}
+
+body.dark #theme-switch img {
+  filter: invert(1); 
+}
