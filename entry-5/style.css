@@ -1,7 +1,12 @@
   body {
   font-family: sans-serif;
   color: #111;
-  background-color: rgb(225, 67, 67);
+  background-color: rgb(83, 16, 16);
+  background-image: url("ETERNALLOVE.png"); scale: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; opacity: 1.0;
+  padding: 20px; 
   margin: 60px auto;
   max-width: 900px;
   line-height: 1.6;
@@ -19,7 +24,8 @@ header {
 header h1 {
   margin: 0;
   font-size: 32px;
-  letter-spacing: 7px;
+  letter-spacing: 3px;
+  text-align: justify;
 }
 
 .subheader {
@@ -34,7 +40,7 @@ header h1 {
 }
 
 .intro {
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
   font-style: italic;
   font-size: 15px;
@@ -42,10 +48,10 @@ header h1 {
 }
 
 .craigslist {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   color: rgb(180, 167, 255);
-  margin-top: 30px;
+  margin-top: 24px;
 }
 
 .posted {
@@ -55,14 +61,14 @@ header h1 {
 }
 
 main {
-  color: #1c1c1c;
+  color: #ffffff;
   display: flex;
   gap: 60px;
-  justify-content: space-between;
+  
 }
 
 .column {
-  width: 48%;
+  width: 50%;
   font-size: 15px;
 }
 

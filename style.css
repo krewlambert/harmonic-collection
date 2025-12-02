@@ -1,28 +1,84 @@
 body {
+  background: #000;
   font-family: sans-serif;
-  margin: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
   padding: 20px;
-  opacity: 1;
-  font-size: x-large; 
-  text-align: center;
+  background: #000;
 }
-div {
-  display: grid;
-  place-items: center;
-  height: 40px;
-  border: 1px solid rgb(0, 0, 0);
+
+.nav a {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 4px 6px;
+  transition: 0.1s ease-out;
 }
-img {
-  width: 400px;
-  height: autoscale;
+
+.nav a:hover {
+  background: blueviolet;
+  color: #000;
+  box-shadow: 0 0 8px blueviolet;
 }
-body {
-  background-color: rgb(255, 255, 255);
-  place-items: center; 
+
+.dropdown {
+  position: relative;
 }
-h1 {
-  color: blue;
+
+.dropbtn {
+  width: 100%;
+  background: #000;
+  color: blueviolet;
+  padding: 4px 6px;
+  font-size: 18px;
+  border: none;
+  text-align: left;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: 0.1s ease-out;
 }
-a:hover {
-  color: peru;
+
+.dropbtn:hover {
+  background: blueviolet;
+  color: #000;
+  box-shadow: 0 0 8px blueviolet;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #000;
+  border: 1px solid blueviolet;
+  z-index: 10;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background: blueviolet;
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
