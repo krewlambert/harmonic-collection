@@ -2,7 +2,7 @@
   font-family: sans-serif;
   color: #111;
   background-color: rgb(83, 16, 16);
-  background-image: url("ETERNALLOVE.png"); scale: cover;
+  background-image: url("ETERNALLOVE.png");scale: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; opacity: 1.0;
@@ -24,7 +24,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 32px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   text-align: justify;
 }
 
@@ -61,7 +61,7 @@ header h1 {
 }
 
 main {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   display: flex;
   gap: 60px;
   
@@ -79,6 +79,6 @@ margin-top: 24px;
 
 img {
     position: absolute;
-    top: 100%; left: 20%;
+    top: 105%; left: 20%;
     
 }
